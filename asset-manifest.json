@@ -1,7 +1,7 @@
 {
   "files": {
-    "build/0.33b622ba.js": "/publication/build/0.33b622ba.js",
-    "main.js": "/publication/build/main.6565ff7a.js",
+    "build/0.aed5f2bb.js": "/publication/build/0.aed5f2bb.js",
+    "main.js": "/publication/build/main.b2e03251.js",
     "runtime-main.js": "/publication/build/bundle.105de5e2.js",
     "index.html": "/publication/index.html",
     "static/media/academicons.ttf?v=1.8.6": "/publication/static/media/academicons.1afcbd6a.ttf",
@@ -36,7 +36,7 @@
   },
   "entrypoints": [
     "build/bundle.105de5e2.js",
-    "build/0.33b622ba.js",
-    "build/main.6565ff7a.js"
+    "build/0.aed5f2bb.js",
+    "build/main.b2e03251.js"
   ]
 }
