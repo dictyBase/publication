@@ -1,7 +1,7 @@
 {
   "files": {
     "build/0.06fdb5a8.js": "/publication/build/0.06fdb5a8.js",
-    "main.js": "/publication/build/main.9baeb351.js",
+    "main.js": "/publication/build/main.9bcc366a.js",
     "runtime-main.js": "/publication/build/bundle.105de5e2.js",
     "index.html": "/publication/index.html",
     "static/media/academicons.ttf?v=1.8.6": "/publication/static/media/academicons.1afcbd6a.ttf",
@@ -29,6 +29,6 @@
   "entrypoints": [
     "build/bundle.105de5e2.js",
     "build/0.06fdb5a8.js",
-    "build/main.9baeb351.js"
+    "build/main.9bcc366a.js"
   ]
 }
