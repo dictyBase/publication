@@ -1,13 +1,13 @@
 {
   "files": {
-    "build/0.ca5e3069.js": "/publication/build/0.ca5e3069.js",
-    "main.js": "/publication/build/main.4d7a5ee5.js",
+    "build/0.ea44fbfa.js": "/publication/build/0.ea44fbfa.js",
+    "main.js": "/publication/build/main.d02da721.js",
     "runtime-main.js": "/publication/build/bundle.105de5e2.js",
     "index.html": "/publication/index.html",
-    "static/media/academicons.ttf?v=1.8.6": "/publication/static/media/academicons.1afcbd6a.ttf",
-    "static/media/academicons.woff?v=1.8.6": "/publication/static/media/academicons.2552b354.woff",
-    "static/media/academicons.svg?v=1.8.6": "/publication/static/media/academicons.406b38d2.svg",
-    "static/media/academicons.eot?v=1.8.6": "/publication/static/media/academicons.ea3755c3.eot",
+    "static/media/academicons.woff": "/publication/static/media/academicons.0d23ec4b.woff",
+    "static/media/academicons.ttf": "/publication/static/media/academicons.62c76471.ttf",
+    "static/media/academicons.eot": "/publication/static/media/academicons.78da7245.eot",
+    "static/media/academicons.svg": "/publication/static/media/academicons.c7863eb5.svg",
     "static/media/logo.png": "/publication/static/media/logo.4eeedc37.png",
     "static/media/roboto-all-400-italic.woff": "/publication/static/media/roboto-all-400-italic.c762d850.woff",
     "static/media/roboto-all-400-normal.woff": "/publication/static/media/roboto-all-400-normal.a91ad097.woff",
@@ -28,7 +28,7 @@
   },
   "entrypoints": [
     "build/bundle.105de5e2.js",
-    "build/0.ca5e3069.js",
-    "build/main.4d7a5ee5.js"
+    "build/0.ea44fbfa.js",
+    "build/main.d02da721.js"
   ]
 }
