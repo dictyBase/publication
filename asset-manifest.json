@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/publication/build/main.fb056b4c.js",
+    "main.js": "/publication/build/main.4ee7d17b.js",
     "runtime-main.js": "/publication/build/bundle.105de5e2.js",
     "vendors~main.js": "/publication/build/vendors~main.691bae91.js",
     "index.html": "/publication/index.html",
@@ -29,6 +29,6 @@
   "entrypoints": [
     "build/bundle.105de5e2.js",
     "build/vendors~main.691bae91.js",
-    "build/main.fb056b4c.js"
+    "build/main.4ee7d17b.js"
   ]
 }
