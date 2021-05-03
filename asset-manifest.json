@@ -2,7 +2,7 @@
   "files": {
     "main.js": "/publication/build/main.621b2f7a.js",
     "runtime-main.js": "/publication/build/bundle.105de5e2.js",
-    "vendors~main.js": "/publication/build/vendors~main.5d84f0f6.js",
+    "vendors~main.js": "/publication/build/vendors~main.4a143d0c.js",
     "index.html": "/publication/index.html",
     "static/media/academicons.eot": "/publication/static/media/academicons.1720cc22.eot",
     "static/media/academicons.ttf": "/publication/static/media/academicons.7fa31f8f.ttf",
@@ -28,7 +28,7 @@
   },
   "entrypoints": [
     "build/bundle.105de5e2.js",
-    "build/vendors~main.5d84f0f6.js",
+    "build/vendors~main.4a143d0c.js",
     "build/main.621b2f7a.js"
   ]
 }
