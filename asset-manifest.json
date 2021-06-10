@@ -1,18 +1,14 @@
 {
   "files": {
     "build/0.035bb861.js": "/publication/build/0.035bb861.js",
-    "main.js": "/publication/build/main.a75a6758.js",
+    "main.js": "/publication/build/main.ee91b65a.js",
     "runtime-main.js": "/publication/build/bundle.5e59ee3b.js",
-    "vendors~main.js": "/publication/build/vendors~main.4a03dd29.js",
-    "index.html": "/publication/index.html",
-    "static/media/academicons.eot": "/publication/static/media/academicons.1720cc22.eot",
-    "static/media/academicons.ttf": "/publication/static/media/academicons.7fa31f8f.ttf",
-    "static/media/academicons.woff": "/publication/static/media/academicons.ac03fc9f.woff",
-    "static/media/academicons.svg": "/publication/static/media/academicons.da853c56.svg"
+    "vendors~main.js": "/publication/build/vendors~main.6db4f6a9.js",
+    "index.html": "/publication/index.html"
   },
   "entrypoints": [
     "build/bundle.5e59ee3b.js",
-    "build/vendors~main.4a03dd29.js",
-    "build/main.a75a6758.js"
+    "build/vendors~main.6db4f6a9.js",
+    "build/main.ee91b65a.js"
   ]
 }
