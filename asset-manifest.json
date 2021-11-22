@@ -1,14 +1,14 @@
 {
   "files": {
     "build/0.035bb861.js": "/publication/build/0.035bb861.js",
-    "main.js": "/publication/build/main.6cc8518b.js",
+    "main.js": "/publication/build/main.20a3b49a.js",
     "runtime-main.js": "/publication/build/bundle.5e59ee3b.js",
-    "vendors~main.js": "/publication/build/vendors~main.bb498af0.js",
+    "vendors~main.js": "/publication/build/vendors~main.345ecdab.js",
     "index.html": "/publication/index.html"
   },
   "entrypoints": [
     "build/bundle.5e59ee3b.js",
-    "build/vendors~main.bb498af0.js",
-    "build/main.6cc8518b.js"
+    "build/vendors~main.345ecdab.js",
+    "build/main.20a3b49a.js"
   ]
 }
