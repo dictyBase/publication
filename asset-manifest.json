@@ -3,12 +3,12 @@
     "build/0.035bb861.js": "/publication/build/0.035bb861.js",
     "main.js": "/publication/build/main.8b0ef701.js",
     "runtime-main.js": "/publication/build/bundle.5e59ee3b.js",
-    "vendors~main.js": "/publication/build/vendors~main.1f43b100.js",
+    "vendors~main.js": "/publication/build/vendors~main.bec28c92.js",
     "index.html": "/publication/index.html"
   },
   "entrypoints": [
     "build/bundle.5e59ee3b.js",
-    "build/vendors~main.1f43b100.js",
+    "build/vendors~main.bec28c92.js",
     "build/main.8b0ef701.js"
   ]
 }
