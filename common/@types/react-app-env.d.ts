@@ -1,4 +1,3 @@
-/// <reference types="react-scripts" />
 import "typescript"
 declare global {
   namespace NodeJS {
