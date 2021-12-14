@@ -7,13 +7,14 @@
   },
   "homepage": "/publication",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "test-coverage": "react-scripts test --coverage",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test-coverage": "jest --coverage",
     "eject": "react-scripts eject",
     "tsc": "tsc",
-    "lint": "eslint --ext .tsx,.ts src/",
+    "lint": "next lint",
     "pre-commit": "lint-staged",
     "semantic-release": "semantic-release",
     "styleguide": "FAST_REFRESH=false styleguidist server",
@@ -23,12 +24,12 @@
   },
   "dependencies": {
     "@apollo/client": "^3.5.5",
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
+    "@mui/icons-material": "^5.2.1",
+    "@mui/material": "^5.2.3",
     "apollo3-cache-persist": "^0.13.0",
     "date-fns": "^2.27.0",
     "dicty-components-header-footer": "dictybase/dicty-components-header-footer#11.0.0",
@@ -41,14 +42,13 @@
     "graphql": "^15.7.2",
     "jwt-decode": "^3.0.0",
     "localforage": "^1.10.0",
+    "next": "^12.0.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^3.3.0",
     "react-helmet": "^6.1.0",
-    "react-loading-skeleton": "^3.0.1",
     "react-router": "^6.0.2",
-    "react-router-dom": "^6.0.2",
-    "react-scripts": "^4.0.2",
+    "react-test-renderer": "^17.0.2",
     "string.prototype.includes": "^2.0.0",
     "typescript": "^4.5.2"
   },
@@ -60,7 +60,7 @@
     "@semantic-release/github": "^8.0.2",
     "@semantic-release/npm": "^8.0.3",
     "@semantic-release/release-notes-generator": "^10.0.3",
-    "@testing-library/jest-dom": "^5.16.0",
+    "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "27.0.3",
@@ -72,28 +72,20 @@
     "@types/react-helmet": "^6.1.4",
     "@types/react-router-dom": "^5.3.2",
     "@types/webpack-env": "^1.16.3",
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jest-dom": "^3.9.2",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "7",
+    "jest": "^27.4.4",
+    "jest-cli": "^27.4.3",
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.1",
     "react-docgen-typescript": "^2.2.1",
     "react-styleguidist": "^11.1.6",
     "semantic-release": "^18.0.1",
     "source-map-explorer": "^2.5.2"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,ts,tsx}",
-      "!src/common/@types/*.{ts}",
-      "!src/common/constants/*.{ts}",
-      "!src/common/graphql/*.{ts}",
-      "!src/**/mock*.{ts,tsx}",
-      "!src/**/types.{ts,tsx}",
-      "!src/**/*Styles.{ts,tsx}"
-    ],
-    "resetMocks": false
   },
   "browserslist": [
     ">0.2%",
@@ -106,22 +98,5 @@
       "prettier --no-semi --trailing-comma all --jsx-bracket-same-line true --write",
       "git add"
     ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest",
-      "prettier",
-      "plugin:jest-dom/recommended"
-    ],
-    "plugins": [
-      "prettier",
-      "jest-dom"
-    ],
-    "rules": {
-      "import/exports-last": [
-        "error"
-      ]
-    }
   }
 }
