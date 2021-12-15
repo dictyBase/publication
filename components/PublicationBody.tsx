@@ -5,40 +5,27 @@ import JournalData from "components/JournalData"
 import SocialLinks from "components/SocialLinks"
 import Abstract from "components/Abstract"
 import FullTextLinks from "components/FullTextLinks"
-import { Author, Publication } from "dicty-graphql-schema"
+import { Publication } from "dicty-graphql-schema"
 
-type Props = {
-  data: Publication
+interface PublicationBodyProps {
+  publication: Publication
 }
 
-export const PublicationBody = ({ data }: Props) => {
-  const journalData = {
-    id: data.id as string,
-    doi: data.doi as string,
-    journal: data.journal as string,
-    pages: data.pages as string,
-    pub_date: data.pub_date as string,
-    issue: data.issue as string,
-    volume: data.volume as string,
-  }
-  const url = `https://doi.org/${data.doi}`
-
-  const title = data.title as string
-  const authors = data.authors as Author[]
-  const abstract = data.abstract as string
+export const PublicationBody = ({ publication }: PublicationBodyProps) => {
+  const url = `https://doi.org/${publication.doi}`
 
   return (
     <Box pt={3}>
       <Box pb={2}>
         <Typography variant="h1">
-          <b>{title}</b>
+          <b>{publication.title}</b>
         </Typography>
       </Box>
 
-      <Authors authors={authors} />
-      <JournalData data={journalData} />
-      <SocialLinks title={title} />
-      <Abstract abstract={abstract} />
+      <Authors authors={publication.authors} />
+      <JournalData data={publication} />
+      <SocialLinks title={publication.title} />
+      <Abstract abstract={publication.abstract} />
       <FullTextLinks url={url} />
     </Box>
   )
