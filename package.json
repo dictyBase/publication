@@ -19,7 +19,11 @@
     "styleguide": "FAST_REFRESH=false styleguidist server",
     "styleguide:build": "FAST_REFRESH=false styleguidist build",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "re:build": "rescript",
+    "re:watch": "rescript build -w",
+    "re:start": "rescript build -w",
+    "re:clean": "rescript clean -with-deps"
   },
   "dependencies": {
     "@apollo/client": "^3.5.5",
@@ -29,6 +33,7 @@
     "@material-ui/icons": "^4.11.2",
     "@mui/icons-material": "^5.2.1",
     "@mui/material": "^5.2.3",
+    "@rescript/react": "^0.10.3",
     "apollo3-cache-persist": "^0.13.0",
     "date-fns": "^2.27.0",
     "dicty-components-header-footer": "dictybase/dicty-components-header-footer#11.0.0",
@@ -48,6 +53,8 @@
     "react-helmet": "^6.1.0",
     "react-router": "^6.0.2",
     "react-test-renderer": "^17.0.2",
+    "rescript-material-ui": "^3.0.2",
+    "rescript-material-ui-lab": "^3.0.2",
     "string.prototype.includes": "^2.0.0",
     "typescript": "^4.5.2"
   },
@@ -83,6 +90,7 @@
     "prettier": "^2.5.1",
     "react-docgen-typescript": "^2.2.1",
     "react-styleguidist": "^11.1.6",
+    "rescript": "^9.1.4",
     "semantic-release": "^18.0.1",
     "source-map-explorer": "^2.5.2"
   },
