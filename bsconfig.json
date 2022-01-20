@@ -27,6 +27,13 @@
   "bs-dependencies": [
     "@rescript/react",
     "rescript-material-ui",
-    "rescript-material-ui-lab"
+    "rescript-material-ui-lab",
+    "@reasonml-community/graphql-ppx"
+  ],
+  "graphql": {
+    "schema": "node_modules/dicty-graphql-schema/schema.json"
+  },
+  "ppx-flags": [
+    "@reasonml-community/graphql-ppx/ppx"
   ]
 }

@@ -1,4 +1,5 @@
 ####{BSB GENERATED: NO EDIT
+FLG -ppx /home/ayaanqui/work/dictybase/publication/node_modules/@reasonml-community/graphql-ppx/ppx
 FLG -ppx '/home/ayaanqui/work/dictybase/publication/node_modules/rescript/linux/bsc.exe -as-ppx -bs-jsx 3'
 S /home/ayaanqui/work/dictybase/publication/node_modules/rescript/lib/ocaml
 B /home/ayaanqui/work/dictybase/publication/node_modules/rescript/lib/ocaml
@@ -9,8 +10,8 @@ S /home/ayaanqui/work/dictybase/publication/node_modules/rescript-material-ui/li
 B /home/ayaanqui/work/dictybase/publication/node_modules/rescript-material-ui/lib/ocaml
 S /home/ayaanqui/work/dictybase/publication/node_modules/rescript-material-ui-lab/lib/ocaml
 B /home/ayaanqui/work/dictybase/publication/node_modules/rescript-material-ui-lab/lib/ocaml
-S bindings
-B lib/bs/bindings
+S /home/ayaanqui/work/dictybase/publication/node_modules/@reasonml-community/graphql-ppx/lib/ocaml
+B /home/ayaanqui/work/dictybase/publication/node_modules/@reasonml-community/graphql-ppx/lib/ocaml
 S components
 B lib/bs/components
 ####BSB GENERATED: NO EDIT}
