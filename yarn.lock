@@ -9384,6 +9384,11 @@ requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
+rescript-apollo-client@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/rescript-apollo-client/-/rescript-apollo-client-2.4.1.tgz#77459c3deadb0b0f0cdff9e84967766f7696429d"
+  integrity sha512-m8qvi5Rt9dOKHVzFhFbWzqfYMK9g8lupe7OUn+Qzqazvdf9CvBdM/BHT6stUctxkklTdd8p6G30PMzGIrhVEGw==
+
 rescript-material-ui-lab@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/rescript-material-ui-lab/-/rescript-material-ui-lab-3.0.2.tgz#95a98348b9292be1841a20db2677a19ca0291c1e"

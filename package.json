@@ -92,6 +92,7 @@
     "react-docgen-typescript": "^2.2.2",
     "react-styleguidist": "^11.1.8",
     "rescript": "^9.1.4",
+    "rescript-apollo-client": "^2.4.1",
     "semantic-release": "^18.0.1",
     "source-map-explorer": "^2.5.2"
   },
