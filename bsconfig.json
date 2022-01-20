@@ -28,10 +28,19 @@
     "@rescript/react",
     "rescript-material-ui",
     "rescript-material-ui-lab",
-    "@reasonml-community/graphql-ppx"
+    "@reasonml-community/graphql-ppx",
+    "rescript-apollo-client"
   ],
   "graphql": {
-    "schema": "node_modules/dicty-graphql-schema/schema.json"
+    "schema": "node_modules/dicty-graphql-schema/schema.json",
+    "templateTagIsFunction": true,
+    "apolloMode": true,
+    "extendMutation": "ApolloClient.GraphQL_PPX.ExtendMutation",
+    "extendQuery": "ApolloClient.GraphQL_PPX.ExtendQuery",
+    "extendSubscription": "ApolloClient.GraphQL_PPX.ExtendSubscription",
+    "templateTagReturnType": "ApolloClient.GraphQL_PPX.templateTagReturnType",
+    "templateTagImport": "gql",
+    "templateTagLocation": "@apollo/client"
   },
   "ppx-flags": [
     "@reasonml-community/graphql-ppx/ppx"

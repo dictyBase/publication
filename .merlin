@@ -12,6 +12,8 @@ S /home/ayaanqui/work/dictybase/publication/node_modules/rescript-material-ui-la
 B /home/ayaanqui/work/dictybase/publication/node_modules/rescript-material-ui-lab/lib/ocaml
 S /home/ayaanqui/work/dictybase/publication/node_modules/@reasonml-community/graphql-ppx/lib/ocaml
 B /home/ayaanqui/work/dictybase/publication/node_modules/@reasonml-community/graphql-ppx/lib/ocaml
+S /home/ayaanqui/work/dictybase/publication/node_modules/rescript-apollo-client/lib/ocaml
+B /home/ayaanqui/work/dictybase/publication/node_modules/rescript-apollo-client/lib/ocaml
 S components
 B lib/bs/components
 ####BSB GENERATED: NO EDIT}
