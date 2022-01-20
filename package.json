@@ -88,7 +88,7 @@
     "jest-cli": "^27.4.7",
     "lint-staged": "^12.2.2",
     "prettier": "^2.5.1",
-    "react-docgen-typescript": "^2.2.1",
+    "react-docgen-typescript": "^2.2.2",
     "react-styleguidist": "^11.1.8",
     "rescript": "^9.1.4",
     "semantic-release": "^18.0.1",
