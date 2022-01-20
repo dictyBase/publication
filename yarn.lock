@@ -1555,6 +1555,11 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.9.2.tgz#adea7b6953cbb34651766b0548468e743c6a2353"
   integrity sha512-VZMYa7+fXHdwIq1TDhSXoVmSPEGM/aa+6Aiq3nVVJ9bXr24zScr+NlKFKC3iPljA7ho/GAZr+d2jOf5GIRC30Q==
 
+"@reasonml-community/graphql-ppx@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@reasonml-community/graphql-ppx/-/graphql-ppx-1.2.2.tgz#c8e07f8d826782219da1ddb7b2c01202bb343690"
+  integrity sha512-mgkETKdZ2QM1Xqlsg7nb30KaM7ojDpxy1rWdiZE5XLaA+oJgClMxA6ghF2b3TZL5f/XdQJ1rnd0p4LmXKnmpqQ==
+
 "@rescript/react@^0.10.3":
   version "0.10.3"
   resolved "https://registry.yarnpkg.com/@rescript/react/-/react-0.10.3.tgz#a2a8bed6b017940ec26c2154764b350f50348889"

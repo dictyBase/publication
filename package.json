@@ -60,6 +60,7 @@
   },
   "devDependencies": {
     "@material-ui/styles": "^4.11.4",
+    "@reasonml-community/graphql-ppx": "^1.2.2",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.1",
     "@semantic-release/git": "^10.0.1",
