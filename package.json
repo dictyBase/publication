@@ -89,7 +89,7 @@
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.1",
     "react-docgen-typescript": "^2.2.1",
-    "react-styleguidist": "^11.1.6",
+    "react-styleguidist": "^11.1.8",
     "rescript": "^9.1.4",
     "semantic-release": "^18.0.1",
     "source-map-explorer": "^2.5.2"
