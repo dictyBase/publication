@@ -4,23 +4,12 @@ import * as Utils from "../../common/utils/utils.bs.js";
 import * as ApolloClient from "rescript-apollo-client/src/ApolloClient.bs.js";
 import * as ApolloClient__Cache_InMemory_InMemoryCache from "rescript-apollo-client/src/@apollo/client/cache/inmemory/ApolloClient__Cache_InMemory_InMemoryCache.bs.js";
 
-function getGraphQLServer(url, deployEnv) {
-  if (deployEnv === "staging") {
-    return Utils.env("NEXT_PUBLIC_ALT_GRAPHQL_SERVER");
-  } else {
-    return url;
-  }
-}
-
-var gqlEndpoint = getGraphQLServer(Utils.env("NEXT_PUBLIC_GRAPHQL_SERVER"), Utils.env("NEXT_PUBLIC_DEPLOY_ENV"));
-
 var client = ApolloClient.make((function (param) {
-        return gqlEndpoint;
+        return Utils.Env.getVariable("NEXT_PUBLIC_GRAPHQL_SERVER");
       }), undefined, undefined, undefined, ApolloClient__Cache_InMemory_InMemoryCache.make(undefined, undefined, undefined, undefined, undefined, undefined), undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined);
 
 export {
-  getGraphQLServer ,
   client ,
   
 }
-/* gqlEndpoint Not a pure module */
+/* client Not a pure module */
