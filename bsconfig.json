@@ -12,6 +12,10 @@
     {
       "dir": "common",
       "subdirs": true
+    },
+    {
+      "dir": "bindings",
+      "subdirs": true
     }
   ],
   "package-specs": [
