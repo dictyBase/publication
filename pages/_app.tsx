@@ -1,6 +1,6 @@
 import type { AppProps } from "next/app"
 import CssBaseline from "@material-ui/core/CssBaseline"
-import { make as App } from "components/apollo/App.bs"
+import { make as ApolloGraphQLProvider } from "components/apollo/ApolloGraphQLProvider.bs"
 import Head from "next/head"
 import { AuthProvider } from "components/auth/AuthStore"
 import MuiProvider from "components/layout/MuiProvider"
@@ -11,7 +11,7 @@ const PublicationApp = ({ Component, pageProps }: AppProps) => {
       <MuiProvider>
         <CssBaseline />
 
-        <App>
+        <ApolloGraphQLProvider>
           <Head>
             <link rel="shortcut icon" href="favicon.ico" />
             <meta
@@ -26,7 +26,7 @@ const PublicationApp = ({ Component, pageProps }: AppProps) => {
           </Head>
 
           <Component {...pageProps} />
-        </App>
+        </ApolloGraphQLProvider>
       </MuiProvider>
     </AuthProvider>
   )

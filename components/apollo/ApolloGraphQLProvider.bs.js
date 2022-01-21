@@ -5,7 +5,7 @@ var React = require("react");
 var Apollo = require("./Apollo.bs.js");
 var Client = require("@apollo/client");
 
-function App(Props) {
+function ApolloGraphQLProvider(Props) {
   var children = Props.children;
   return React.createElement(Client.ApolloProvider, {
               client: Apollo.client,
@@ -13,7 +13,7 @@ function App(Props) {
             });
 }
 
-var make = App;
+var make = ApolloGraphQLProvider;
 
 exports.make = make;
 /* react Not a pure module */
