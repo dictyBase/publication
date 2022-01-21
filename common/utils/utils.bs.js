@@ -6,7 +6,7 @@ import * as Process from "process";
 
 var nodeEnv = Process.env;
 
-function env(name) {
+function getVarialbe(name) {
   var value = Js_dict.get(nodeEnv, name);
   if (value !== undefined) {
     return value;
@@ -15,9 +15,13 @@ function env(name) {
   }
 }
 
+var Env = {
+  nodeEnv: nodeEnv,
+  getVarialbe: getVarialbe
+};
+
 export {
-  nodeEnv ,
-  env ,
+  Env ,
   
 }
 /* nodeEnv Not a pure module */
