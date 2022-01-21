@@ -1,15 +1,16 @@
 import type { AppProps } from "next/app"
-import AppProviders from "components/layout/AppProviders"
 import CssBaseline from "@material-ui/core/CssBaseline"
-import App from "components/layout/App"
+import { make as App } from "components/apollo/App.bs"
 import Head from "next/head"
 import { AuthProvider } from "components/auth/AuthStore"
+import MuiProvider from "components/layout/MuiProvider"
 
 const PublicationApp = ({ Component, pageProps }: AppProps) => {
   return (
     <AuthProvider>
-      <AppProviders>
+      <MuiProvider>
         <CssBaseline />
+
         <App>
           <Head>
             <link rel="shortcut icon" href="favicon.ico" />
@@ -26,7 +27,7 @@ const PublicationApp = ({ Component, pageProps }: AppProps) => {
 
           <Component {...pageProps} />
         </App>
-      </AppProviders>
+      </MuiProvider>
     </AuthProvider>
   )
 }
