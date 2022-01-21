@@ -2,7 +2,7 @@
 'use strict';
 
 var React = require("react");
-var Apollo = require("./Apollo.bs.js");
+var Apollo = require("./apollo.bs.js");
 var Client = require("@apollo/client");
 
 function ApolloGraphQLProvider(Props) {
