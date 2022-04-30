@@ -52,7 +52,7 @@
     "react-ga": "^3.3.0",
     "react-helmet": "^6.1.0",
     "react-router": "^6.3.0",
-    "react-test-renderer": "^18.0.0",
+    "react-test-renderer": "^18.1.0",
     "rescript-material-ui": "^3.0.2",
     "rescript-material-ui-lab": "^3.0.2",
     "string.prototype.includes": "^2.0.0",
