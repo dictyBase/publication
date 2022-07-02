@@ -78,7 +78,7 @@
     "@types/react-helmet": "^6.1.5",
     "@types/react-router-dom": "^5.3.3",
     "@types/webpack-env": "^1.16.4",
-    "eslint": "8.14.0",
+    "eslint": "8.19.0",
     "eslint-config-next": "12.1.5",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest-dom": "^4.0.1",
