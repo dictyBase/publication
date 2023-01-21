@@ -79,7 +79,7 @@
     "@types/react-router-dom": "^5.3.3",
     "@types/webpack-env": "^1.18.0",
     "eslint": "8.31.0",
-    "eslint-config-next": "13.1.2",
+    "eslint-config-next": "13.1.4",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-jest-dom": "^4.0.3",
     "eslint-plugin-prettier": "^4.2.1",
