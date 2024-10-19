@@ -42,7 +42,7 @@
     "dicty-hooks": "dictybase/dicty-hooks#3.0.0",
     "element-remove": "^1.0.4",
     "fontsource-roboto": "^4.0.0",
-    "graphql": "^16.8.0",
+    "graphql": "^16.8.1",
     "jwt-decode": "^3.0.0",
     "localforage": "^1.10.0",
     "next": "12.2.x",
